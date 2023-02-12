@@ -1,0 +1,39 @@
+﻿.testimonials {
+    &__slider {
+        display: flex;
+        justify-content: center;
+    }
+    &__slide {
+        padding-inline: 20px;
+        padding-top: 10px;
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 0.875rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 5px;
+        margin-bottom: 2.5rem;
+    }
+    &__image img {
+        border-radius: 50%;
+        object-fit: cover;
+        width: 68px;
+        height: 68px;
+        margin-block: 3.125rem 2.9375rem;
+    }
+    &__name {
+        font-weight: var(--font-black);
+        font-size: var(--normal-font-size);
+        line-height: 1.1875rem;
+        margin-bottom: 1.1875rem;
+    }
+    &__text {
+        font-size: var(--text-font-size);
+        line-height: 17px;
+        font-weight: var(--font-regular);
+        margin-bottom: 7rem;
+    }
+}

@@ -1,0 +1,120 @@
+﻿@media screen and (min-width: 40rem) {
+    .container {
+        padding-inline: 1.25rem;
+    }
+    .home {
+        height: 55rem;
+        &__slider-container {
+            height: 22rem;
+            & span {
+                font-size: var(--normal-font-size);
+                line-height: 1.25rem;
+            }
+        }
+        &__socials {
+            display: grid;
+            gap: 1rem;
+            top: 75%;
+            left: 1.25rem;
+        }
+    }
+    .home__title {
+        padding-inline: 1.25rem;
+    }
+    .about__items {
+        width: 20rem;
+    }
+    .map-m {
+        &__slide {
+            width: 6.75rem !important;
+            height: 6.75rem;
+        }
+    }
+
+}
+
+
+@media screen and (min-width:47.9375rem) {
+    .home {
+        height: 41.875rem;
+        &__swiper {
+            width: 37.5rem;
+            left:40%;
+        }
+    }
+    .line {
+        left:30%
+    }
+}
+
+@media screen and (min-width:65.625rem) {
+    .container {
+        padding-inline: 9.375rem;
+    }
+    .footer {
+        &__container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &__nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__links {
+            display: flex;
+            gap: 4.5625rem;
+        }
+        &__address {
+            & span {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .contact {
+        display: flex;
+        gap:10rem;
+    }
+    .about {
+        &__items {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+            align-items:flex-start;
+            text-align: justify;
+        }
+    }
+    .payfeed {
+        &__items {
+            flex-direction: row;
+            gap: 2rem;
+        }
+        &__arrow {
+            transform: rotate(270deg);
+        }
+    }
+    .zoo__main-container {
+        display: flex;
+    }
+    .zoo__main-content {
+        width: calc(100% - 640px);
+        text-align: justify;
+    }
+    .zoo {
+        &__sidebar {
+            margin-left: -7rem;
+        }
+        &__main {
+            width: 100%;
+        }
+        &__main-content {
+            width: 40%;
+        }
+        &__container {
+            padding-right: 20px;
+        }
+    }
+    .video-responsive {
+        width: 60%;
+    }
+}

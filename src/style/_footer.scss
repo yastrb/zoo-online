@@ -1,0 +1,114 @@
+﻿.footer {
+    &__section {
+        background-color: var(--title-color);
+        padding-bottom: 10rem;
+    }
+    &__container {
+        padding-block: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__nav {
+        display: grid;
+        margin-top: 3.125rem;
+    }
+    &__logo {
+        display: grid;
+        padding-bottom: 1.875rem;
+        font-size: var(--h2-font-size);
+        font-weight: var(--font-black);
+        color: var(--first-color);
+        line-height: 2.625rem;
+        & span {
+            font-size: 1.125rem;
+            line-height: 1.3181rem;
+            letter-spacing: 0.3rem;
+        }
+    }
+    &__links {
+        display: grid;
+        gap: 0.3125rem;
+        padding-bottom: 1.4375rem;
+    }
+    &__link {
+        font-size: var(--normal-font-size);
+        line-height: 1.1875rem;
+        color: var(--first-color);
+    }
+    &__title {
+        color: var(--first-color);
+        text-align: left;
+        font-size: var(--h3-font-size);
+        font-weight: var(--font-black);
+        padding-bottom: 2.1875rem;
+    }
+    &__form {
+        min-width: 300px;
+        max-width: 23.9375rem;
+    }
+    &__form-group {
+        margin-bottom: 1.25rem;
+        width: 100%;
+    }
+    &__form-control {
+        font-size: var(--text-font-size);
+        line-height: 1rem;
+        height: 1.625rem;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid  #BDBDBD;
+        display: block;
+        width: 100%;
+        font-family: var(--body-font);
+    }
+    &__form-email {
+        height: 7.75rem;
+        border: 1px solid #BDBDBD;
+        border-radius: 5px;
+    }
+    &__form-button {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__address {
+        & h4 {
+            font-weight: var(--font-bold);
+            font-size: var(--text-font-size);
+            line-height: 1.0625rem;
+            text-transform: uppercase;
+            color: var(--first-color);
+            margin-bottom: 2.1875rem;
+        }
+        & span {
+            display: block;
+            margin-bottom: 5px;
+            color: var(--first-color);
+            line-height: 1.0625rem;
+            &:nth-last-of-type(1) {
+                margin-bottom: 1.25rem;
+            }
+        }
+    }
+    &__socials {
+        display: flex;
+        gap:1.25rem;
+    }
+    &__btn {
+        width: 17.1875rem;
+    }
+}
+input:focus::placeholder {
+    color: transparent;
+}
+textarea:focus::placeholder {
+    color: transparent;
+}
+
+.form-button {
+    cursor: pointer;
+    color: var(--first-color);
+    background-color: transparent;
+    border: none;
+    font-size: var(--text-font-size);
+    text-transform: uppercase;
+}

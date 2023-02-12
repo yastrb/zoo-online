@@ -1,0 +1,103 @@
+﻿.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transition: .4s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav {
+    // height: 5.75rem;
+    height: 14vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: var(--first-color);
+
+    &__logo {
+        display: grid;
+        padding-block: 1.5625rem;
+        font-size: var(--h2-font-size);
+        font-weight: var(--font-black);
+        color: var(--title-color);
+        line-height: 2.625rem;
+
+        & span {
+            font-size: 1.125rem;
+            line-height: 1.3181rem;
+            letter-spacing: 0.3rem;
+        }
+    }
+
+    &__menu {
+        @media screen and (max-width: 767px) {
+            position: fixed;
+            background-color: var(--first-color);
+            top: -100vh;
+            right: 0;
+            // top: -100%;
+            // left: 0;
+            // background-color: var(--body-color);
+            width: 50%;
+            height: 86vh;
+            // padding-block: 3.5rem;
+            transition: top .4s;
+        }
+    }
+
+    &__list {
+        display: grid;
+        text-align: center;
+        gap: 2rem;
+        // padding-top: 2rem;
+        @media screen and (min-width: 767px) {
+            display: flex;
+            gap: 2rem;
+        }
+    }
+
+    &__link {
+        font-weight: var(--font-medium);
+        font-size: var(--normal-font-size);
+        color: var(--title-color);
+        transition: all 0.3s ease;
+    }
+
+    // &__close {
+    //     position: absolute;
+    //     top: 1rem;
+    //     right: 1.5rem;
+    //     font-size: 1.5rem;
+    //     cursor: pointer;
+    //     @media screen and (min-width: 767px) {
+    //         display: none;
+    //     }
+    // }
+
+    &__toggle {
+        cursor: pointer;
+        position: fixed;
+        right: 3.125rem;
+        @media screen and (min-width: 767px) {
+            display: none;
+        }
+    }
+}
+
+.active-link {
+    font-weight: var(--font-black);
+    text-decoration: underline;
+    color: var(--title-color);
+    font-size: var(--normal-font-size);
+}
+
+.show-menu {
+    top: 14vh;
+}
+
+.bg-header {
+    background-color: var(--first-color);
+}

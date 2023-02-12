@@ -1,0 +1,34 @@
+﻿.work {
+    &__container {
+        display: grid;
+        justify-items: center;
+    }
+    &__content {
+        margin-bottom: 1.875rem;
+    }
+    &__slide {
+        width: 100%;
+        height: 20rem;
+    }
+    &__image{
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+        object-position: 83%;
+
+    }
+}
+
+.swiper {
+    margin-bottom: 1.25rem;
+    width: 100%;
+    height: 100%;
+}
+
+.work__slide img {
+    // display: block;
+    // width: 100%;
+    // height: 20.1875rem;
+    // object-fit: cover;
+    // object-position: left;
+}
