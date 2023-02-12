@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/zoo-online/static/css/main.8cd8d2b7.css",
+    "main.js": "/zoo-online/static/js/main.47eec0ef.js",
+    "static/media/sidebar.png": "/zoo-online/static/media/sidebar.e05550e3aed0f321813d.png",
+    "static/media/main.jpg": "/zoo-online/static/media/main.2dd2046a8fcc074e2df3.jpg",
+    "static/media/slider2.jpg": "/zoo-online/static/media/slider2.9fdf9062340543bf4898.jpg",
+    "static/media/slider3.jpg": "/zoo-online/static/media/slider3.91d67113a34b9a394c71.jpg",
+    "static/media/slider1.jpg": "/zoo-online/static/media/slider1.b423590f1a9c3fe86587.jpg",
+    "static/media/slider4.jpg": "/zoo-online/static/media/slider4.a7033811dcc8828ca26a.jpg",
+    "static/media/animal2.jpg": "/zoo-online/static/media/animal2.0ea28ad3eee39a651b8c.jpg",
+    "static/media/animal1.jpg": "/zoo-online/static/media/animal1.a854d2b115920b6cc6af.jpg",
+    "static/media/animal3.jpg": "/zoo-online/static/media/animal3.51a34c8144b4e7b43f75.jpg",
+    "static/media/animal7.jpg": "/zoo-online/static/media/animal7.77feae951de3739e8452.jpg",
+    "static/media/animal6.jpg": "/zoo-online/static/media/animal6.f531591dcd26d60b0e60.jpg",
+    "static/media/animal9.jpg": "/zoo-online/static/media/animal9.9f0a6a9e1d140b592af1.jpg",
+    "static/media/animal5.jpg": "/zoo-online/static/media/animal5.476bf0aec21c646a72f5.jpg",
+    "static/media/animal8.jpg": "/zoo-online/static/media/animal8.ef07ecdfda9eb74ccd9a.jpg",
+    "static/media/animal4.jpg": "/zoo-online/static/media/animal4.91ea45176756eb2588c5.jpg",
+    "index.html": "/zoo-online/index.html",
+    "main.8cd8d2b7.css.map": "/zoo-online/static/css/main.8cd8d2b7.css.map",
+    "main.47eec0ef.js.map": "/zoo-online/static/js/main.47eec0ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cd8d2b7.css",
+    "static/js/main.47eec0ef.js"
+  ]
+}
