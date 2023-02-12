@@ -1,6 +1,5 @@
 ﻿import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-// import close from '../../../assets/images/close.png';
 import menu from "../../../assets/images/menu.png"
 
 const setActive = ({ isActive }) => isActive ? 'active-link' : 'nav__link';
@@ -21,7 +20,6 @@ const Nav = () => {
                     <NavLink to="/zoos" className={setActive}>Zoos</NavLink>
                     <NavLink to="/map" className={setActive}>Map</NavLink>
                     <NavLink to="/contacts" className={setActive}>Contact Us</NavLink>
-                    {/* <NavLink to="/design" className={setActive}>Design</NavLink> */}
                 </nav>
             </div>
             <div onClick={navToggle} class="nav__toggle" id="nav-toggle">
