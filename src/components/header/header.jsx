@@ -2,13 +2,6 @@
 import Buttons from "./Buttons/buttons";
 import Nav from "./Nav/nav";
 
-// const scrollHeader = () => {
-//     const header = document.getElementById('header')
-
-//     this.scrollY >= 50 ? header.classList.add('bg-header') : header.classList.remove('bg-header')
-// }
-// window.addEventListener('scroll', scrollHeader);
-
 const Header = () => {
 
     return (
