@@ -6,7 +6,6 @@ import Pets from "./Pets/pets";
 import PayFeed from "./PayAndFeed/payfeed";
 import Testimonials from "./Testimonials/testimonials";
 import Map from "./Map/map";
-// import Footer from "./Footer/footer";
 
 
 function Main() {
@@ -19,7 +18,6 @@ function Main() {
             <PayFeed/>
             <Testimonials/>
             <Map/>
-            {/* <Footer/> */}
         </div>
     );
 }

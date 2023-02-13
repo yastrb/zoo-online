@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Routes>
         <Route index element={<Main />} />
-        <Route path="zoo-online" element={<Main />} />
+        <Route path="/" element={<Main />} />
         <Route path="/zoos/*" element={<Zoo />}/>
         <Route path="/about" element={<AboutUs/>}/>
         <Route path="/map" element={<Map/>}/>

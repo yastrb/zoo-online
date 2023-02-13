@@ -1,11 +1,7 @@
 ﻿import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import YouTube from 'react-youtube';
-import Button from "../../main/Button/button";
-import { Pagination, Navigation } from "swiper";
 import Modal from "../../modal/modal";
 import { useState } from "react";
 import YoutubeEmbed from "../YoutubeEmbed";
