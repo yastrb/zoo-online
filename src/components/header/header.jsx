@@ -3,7 +3,6 @@ import SunLineIcon from "remixicon-react/SunLineIcon";
 import MoonLineIcon from "remixicon-react/MoonLineIcon";
 import Nav from "./Nav/nav";
 import { NavLink } from "react-router-dom";
-// import  Switch  from 'react-switch';
 const Header = ({ theme, toggleTheme }) => {
 
     return (
@@ -13,7 +12,6 @@ const Header = ({ theme, toggleTheme }) => {
                     ZOO<span>online</span>
                 </NavLink>
                 <Nav />
-                {/* <Switch/> */}
                 <div className="light__mode">
                     <span onClick = {toggleTheme}>
                         {
