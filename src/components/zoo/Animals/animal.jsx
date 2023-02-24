@@ -5,6 +5,7 @@ import "swiper/css/navigation";
 import Modal from "../../modal/modal";
 import { useState } from "react";
 import YoutubeEmbed from "../YoutubeEmbed";
+import Button from "../../main/Button/button";
 
 const Animal = (props) => {
 
@@ -29,8 +30,7 @@ const Animal = (props) => {
                     <p>{habitat}</p>
                     <h3>Diet:</h3>
                     <p>{diet}</p>
-                    {/* <Button  content={'feed'} /> */}
-                    <button className="button" onClick={()=> setModalActive(true)}>FEED</button>
+                    <Button onClick = {()=> setModalActive(true)}  content={'feed'} />
                     <Modal active={modalActive} setActive={setModalActive}></Modal>
                 </div>
             </div>

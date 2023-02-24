@@ -6,7 +6,11 @@
     --base-color:#49D6DF;
     --gray-3:#828282;
     --title-color: #333333;
+    --h1-color: #fff;
     --text-color: #4F4F4F;
+    --l-g-color: #f2f2f2;
+    --b-sh-1: #919191;
+    --b-sh-2: #fff;
 
     --body-font: 'Roboto', sans-serif;
     --h1-font-size: 3rem;
@@ -33,4 +37,17 @@
         --h1-font-size: 5.5625rem;
         --h1-l-h: 6.5rem;
     }
+}
+
+.dark-theme {
+    --first-color: #333333;
+    --text-color: #fff;
+    --title-color: #fff;
+    --l-g-color: #4F4F4F;
+    --b-sh-1: #000;
+    --b-sh-2: #454545;
+}
+
+body {
+    background: var(--first-color);
 }

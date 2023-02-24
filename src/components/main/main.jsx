@@ -8,7 +8,8 @@ import Testimonials from "./Testimonials/testimonials";
 import Map from "./Map/map";
 
 
-function Main() {
+
+function Main({theme}) {
     return (
         <div className="main">
             <Home/>

@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import Iframe from 'react-iframe';
 
-const AboutUs = () => {
+const AboutUs = ({theme}) => {
     return (
         <section className="aboutus section">
             <div className="aboutus__container container">

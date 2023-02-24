@@ -12,7 +12,9 @@ body {
     font-family: var(--body-font);
     font-size: var(--text-font-size);
     color: var(--text-color);
+    background: var(--first-color);
 }
+
 
 body,
 h1,
@@ -73,7 +75,7 @@ img {
     width: 15.3125rem;
     height: 3.4375rem;
     border: none;
-    color: var(--first-color);
+    color: var(--h1-color);
     text-align: center;
     align-items: center;
     // font-weight: var(--font-black);

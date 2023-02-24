@@ -50,15 +50,16 @@
             border-radius: 50%;
             transition: 0.7s;
             background: linear-gradient(145deg, #ffffff, #e6e6e6);
-            box-shadow: 5px 5px 10px #919191,
-                -5px -5px 10px #ffffff;
-
+            box-shadow: 5px 5px 10px var(--b-sh-1),
+                -5px -5px 10px var(--b-sh-2);
+            //  box-shadow: 5px 5px 10px #919191,
+            // -5px -5px 10px #ffffff;
             &:hover {
                 transform: scale(1.1);
                 border-radius: 50%;
                 background: linear-gradient(145deg, #ffffff, #e6e6e6);
-                box-shadow: 11px 11px 22px #919191,
-                    -11px -11px 22px #ffffff;
+                box-shadow: 11px 11px 22px var(--b-sh-1),
+                    -11px -11px 22px var(--b-sh-2);
             }
         }
     }

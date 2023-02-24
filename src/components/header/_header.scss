@@ -81,6 +81,7 @@
         cursor: pointer;
         position: fixed;
         right: 3.125rem;
+        color: var(--title-color);
         @media screen and (min-width: 767px) {
             display: none;
         }

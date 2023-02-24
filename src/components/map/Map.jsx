@@ -4,14 +4,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { NavLink } from "react-router-dom";
-import { Navigation } from "swiper";
-import { Route, Routes } from "react-router-dom";
 import image from '../../assets/images/animal5.jpg';
 import image2 from '../../assets/images/animal2.jpg';
 import image3 from '../../assets/images/animal3.jpg';
 import image4 from '../../assets/images/animal4.jpg';
 import image5 from '../../assets/images/animal1.jpg';
-import image6 from '../../assets/images/animal7.jpg';
 import image7 from '../../assets/images/animal8.jpg';
 import image8 from '../../assets/images/animal9.jpg';
 import ArrowLeftSLineIcon from 'remixicon-react/ArrowLeftSLineIcon';
@@ -21,37 +18,37 @@ const zoo = [
     {
         id: 1,
         image: image,
-        link: "panda",
+        link: "/panda",
     },
     {
         id: 2,
         image: image5,
-        link: "gorilla",
+        link: "/gorilla",
     },
     {
         id: 3,
         image: image3,
-        link: "crocodile",
+        link: "/crocodile",
     },
     {
         id: 4,
         image: image4,
-        link: "eagle",
+        link: "/eagle",
     },
     {
         id: 5,
         image: image2,
-        link: "leopard",
+        link: "/leopard",
     },
     {
         id: 6,
         image: image8,
-        link: "lion",
+        link: "/lion",
     },
     {
         id: 7,
         image: image7,
-        link: "zebra",
+        link: "/zebra",
     },
 ]
 
@@ -66,12 +63,9 @@ const Map = () => {
                     <div className="map-m__slider">
                         <ArrowLeftSLineIcon/>
                         <Swiper
-                            // navigation={true} 
-                            // modules={[Navigation]}
                             className="mySwiper map-m__swiper"
                             slidesPerView={3}
                             spaceBetween={10}
-                        // height={70}
                         >
                             {zoo.map(item => (
                                 <SwiperSlide key={item.id} className='map-m__slide'>

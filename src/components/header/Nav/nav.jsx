@@ -1,10 +1,10 @@
 ﻿import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import menu from "../../../assets/images/menu.png"
+import MenuLineIcon from "remixicon-react/MenuLineIcon";
 
 const setActive = ({ isActive }) => isActive ? 'active-link' : 'nav__link';
 
-const Nav = () => {
+const Nav = ({theme}) => {
     const [one, setOne] = useState('nav__menu');
     const navToggle = () => {
         one === 'nav__menu'
@@ -23,7 +23,7 @@ const Nav = () => {
                 </nav>
             </div>
             <div onClick={navToggle} class="nav__toggle" id="nav-toggle">
-                <img src={menu} alt="" />
+                        <span><MenuLineIcon /></span>
             </div>
         </>
 

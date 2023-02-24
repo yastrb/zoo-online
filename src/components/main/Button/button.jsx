@@ -1,8 +1,8 @@
 ﻿import React from "react";
 
-function Button ({content, link}) {
+function Button ({content, onClick, link}) {
     return (
-        <button  className="button">
+        <button onClick={onClick}  className="button">
             {content}
         </button>
     );

@@ -1,17 +1,27 @@
 ﻿import React from "react";
-import Buttons from "./Buttons/buttons";
+import SunLineIcon from "remixicon-react/SunLineIcon";
+import MoonLineIcon from "remixicon-react/MoonLineIcon";
 import Nav from "./Nav/nav";
-
-const Header = () => {
+import { NavLink } from "react-router-dom";
+// import  Switch  from 'react-switch';
+const Header = ({ theme, toggleTheme }) => {
 
     return (
         <div className="header" id="header">
             <div className="nav container">
-                <div className="nav__logo">
+                <NavLink to="/" className="nav__logo">
                     ZOO<span>online</span>
+                </NavLink>
+                <Nav />
+                {/* <Switch/> */}
+                <div className="light__mode">
+                    <span onClick = {toggleTheme}>
+                        {
+                        theme === "dark-theme" ?
+                        <span><MoonLineIcon/></span> : 
+                        <span><SunLineIcon /></span>}
+                    </span>
                 </div>
-                <Nav/>
-                <Buttons/>
             </div>
         </div>
     )

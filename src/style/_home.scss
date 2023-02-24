@@ -19,7 +19,7 @@
         font-size: var(--h1-font-size);
         font-weight: var(--font-black);
         line-height: var(--h1-l-h);
-        color: var(--first-color);
+        color: var(--h1-color);
     }
     &__slider {
         height: 202px;
@@ -99,4 +99,8 @@
     position: relative;
     left: 5%;
     top: 9rem;
+}
+
+.dark-mode .home__title {
+    color: #fff;
 }
