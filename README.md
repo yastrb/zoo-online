@@ -11,3 +11,6 @@ This app is made with using: <br>
 - React hooks💻<br>
 
 -----------------------------
+![alt text](https://github.com/yastrb/zoo-online/blob/main/Screenshot_1.png)
+![alt text](https://github.com/yastrb/zoo-online/blob/main/Screenshot_2.png)
+![alt text](https://github.com/yastrb/zoo-online/blob/main/Screenshot_3.png)
